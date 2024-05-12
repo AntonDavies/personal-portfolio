@@ -1,0 +1,95 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="your_logo_image_url" alt="Your Logo">
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="features">
+        <!-- Your feature section content here -->
+    </section>
+
+    <section id="pricing">
+        <!-- Your pricing section content here -->
+    </section>
+
+    <section id="contact">
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+            <input id="email" type="email" name="email" placeholder="Enter your email" required>
+            <input id="submit" type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <!-- Your footer content here -->
+    </footer>
+
+    <!-- Video -->
+    <iframe id="video" width="560" height="315" src="your_video_url" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+/* Flexbox example */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar ul li {
+    margin-right: 20px;
+}
+
+#nav-bar ul li:last-child {
+    margin-right: 0;
+}
+
+#nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Media Query example */
+@media (max-width: 768px) {
+  
+}
+
+** end of undefined **
+
