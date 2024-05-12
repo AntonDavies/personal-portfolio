@@ -1,0 +1,140 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>Technical Documentation</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#Chapter_One">Chapter One</a>
+    <a class="nav-link" href="#Chapter_Two">Chapter Two</a>
+    <a class="nav-link" href="#Chapter_Three">Chapter Three</a>
+    <a class="nav-link" href="#Chapter_Four">Chapter Four</a>
+  </nav>
+
+  <main id="main-doc">
+    <section id="Introduction" class="main-section">
+      <header>Introduction</header>
+      <p>This is the introduction section.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Phasellus nec lorem nec risus eleifend malesuada. Fusce vestibulum lacus id mi fringilla, sed interdum mi fermentum. Ut fermentum ipsum ac velit gravida aliquam. Suspendisse potenti. In vitae eros vel dui dignissim ullamcorper. Proin sed arcu ligula. Sed elementum laoreet felis non convallis. Proin non nunc vitae risus fringilla congue.</p>
+      <p>Integer vel nibh ultricies, eleifend lacus id, fermentum arcu. Fusce fermentum lacinia magna, nec fermentum purus feugiat sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec dictum felis eu felis tincidunt scelerisque. In hac habitasse platea dictumst.</p>
+      <p>Sed auctor vestibulum odio, quis tempor lacus bibendum a. Duis semper felis nec sem eleifend, et sodales lorem gravida. Phasellus maximus convallis elit, a tristique ex ultrices vel. Donec vitae condimentum eros, quis mollis mauris.</p>
+      <p>Curabitur nec libero et leo dictum posuere vel ac nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut consectetur, tortor id efficitur sagittis, odio lorem feugiat arcu, nec pharetra mauris ligula in orci. Pellentesque ut dapibus lectus.</p>
+      <code>const greeting = 'Hello, world!';</code>
+      <code>console.log(greeting);</code>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+      <li>List item 4</li>
+      <li>List item 5</li>
+    </section>
+
+    <section id="Chapter_One" class="main-section">
+      <header>Chapter One</header>
+      <p>This is the content of chapter one.</p>
+      <p>Curabitur eget ultricies sapien. Cras sollicitudin diam ligula, vitae elementum libero tempor eget. Nullam sagittis hendrerit justo, vel convallis urna sollicitudin vel. Fusce mollis interdum neque, eget lacinia eros efficitur et. Nullam euismod purus sit amet enim lacinia, et consequat leo ultricies. Aliquam euismod quam id libero luctus, ut fringilla arcu rutrum. Phasellus efficitur felis eu posuere posuere. Vestibulum at metus risus.</p>
+      <p>Proin fermentum urna eu dolor laoreet, quis aliquet tortor fringilla. Aliquam tincidunt velit id risus euismod, at varius justo elementum. Suspendisse potenti. Maecenas vel eros leo. Ut tempor ex eu ipsum lacinia sollicitudin. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam laoreet ultrices leo id condimentum.</p>
+      <p>Aliquam id risus eget nisl lacinia efficitur. Donec sit amet quam odio. Pellentesque scelerisque lorem id elit pellentesque scelerisque. Vivamus tempor varius turpis sit amet malesuada. Ut nec aliquet mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus gravida vulputate tellus ac dignissim.</p>
+      <p>Fusce eget nibh nec velit efficitur varius. Fusce ultricies elit eget tellus sodales, vitae tempus enim sollicitudin. Integer dapibus turpis id arcu fringilla interdum. Nam id condimentum orci. Nulla facilisi. Cras sit amet tellus quis turpis tincidunt scelerisque. Integer dapibus sodales erat, nec feugiat urna imperdiet sit amet.</p>
+      <code>for (let i = 0; i < 5; i++) {</code>
+      <code>   console.log(i);</code>
+      <code>}</code>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+      <li>List item 4</li>
+      <li>List item 5</li>
+    </section>
+
+    <section id="Chapter_Two" class="main-section">
+      <header>Chapter Two</header>
+      <!-- Content for Chapter Two -->
+    </section>
+
+    <section id="Chapter_Three" class="main-section">
+      <header>Chapter Three</header>
+      <!-- Content for Chapter Three -->
+    </section>
+
+    <section id="Chapter_Four" class="main-section">
+      <header>Chapter Four</header>
+      <!-- Content for Chapter Four -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  overflow-y: auto;
+}
+
+nav header {
+  font-size: 1.5em;
+  padding: 20px;
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+main {
+  margin-left: 220px; /* Adjust to accommodate navbar width */
+  padding: 20px;
+}
+
+main section {
+  margin-bottom: 20px;
+}
+
+main header {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  main {
+    margin: 20px;
+  }
+}
+
+** end of undefined **
+
